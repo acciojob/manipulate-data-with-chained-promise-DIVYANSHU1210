@@ -18,7 +18,7 @@ function myPromise (numbers) {
 const inputArray = [1, 2, 3, 4];
 
 const outputDiv = document.getElementById("output");
-outputDiv.innerText = `initial Array-> [${inputArray.join(', ')}]`;
+outputDiv.innerText = `initial Array - [${inputArray.join(', ')}]`;
 
 myPromise(inputArray)
 	.then(result=>outputDiv.innerText += `\nfiltered arrays - [${result.join(', ')}]`)
